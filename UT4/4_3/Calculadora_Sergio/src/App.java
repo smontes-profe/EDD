@@ -83,23 +83,23 @@ public class App {
         }
     }
 
-    public static double sumar(double primerNumero, double segundoNumero) {
-        return primerNumero + segundoNumero;
+    public static double sumar(double num1, double num2) {
+        return num1 + num2;
     }
 
-    public static double restar(double primerNumero, double segundoNumero) {
-        return primerNumero - segundoNumero;
+    public static double restar(double num1, double num2) {
+        return num1 - num2;
     }
 
-    public static double multiplicar(double primerNumero, double segundoNumero) {
-        return primerNumero * segundoNumero;
+    public static double multiplicar(double num1, double num2) {
+        return num1 * num2;
     }
 
-    public static double dividir(double primerNumero, double segundoNumero) {
-        return primerNumero / segundoNumero;
+    public static double dividir(double num1, double num2) {
+        return num1 / num2;
     }
 
-    public static double triplicar(double numero){
-        return numero*3;
+    public static double triplicar(double num1) {
+        return num1 * 3;
     }
 }
