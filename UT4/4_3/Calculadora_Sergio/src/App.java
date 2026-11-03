@@ -83,13 +83,13 @@ public class App {
         }
     }
 
-    public static double sumar(double num1, double num2) {
-        double res = num1 + num2;
-        return res;
+    public static double sumar(double numA, double numB) {
+        return numA + numB;
     }
 
     public static double restar(double num1, double num2) {
-        return num1 - num2;
+        double res= num1+num2;
+        return res;
     }
 
     public static double multiplicar(double num1, double num2) {
